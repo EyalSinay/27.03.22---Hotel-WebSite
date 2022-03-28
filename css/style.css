@@ -54,6 +54,36 @@ nav ul li a:hover,
     color: coral;
 }
 
+.about-container{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.about-container .text{
+    float: left;
+    width: 30%;
+    line-height: 1.5rem;
+    padding: 130px 0;
+}
+
+.about-container img{
+    float: right;
+    width: 25%;
+    border-radius: 50%;
+    margin: 100px;
+}
+
+.about-container .text h1{
+    padding-bottom: 30px;
+}
+
+.about-container .text h1,
+.about-container .text p{
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+
 .showcase{
     background-image: url('../img/showcase.jpg');
     background-repeat: no-repeat;
